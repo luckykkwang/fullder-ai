@@ -1770,7 +1770,7 @@ const ChatTextArea = forwardRef<HTMLTextAreaElement, ChatTextAreaProps>(
 					<Tooltip
 						style={{ zIndex: 1000 }}
 						visible={shownTooltipMode !== null}
-						tipText={`在 ${shownTooltipMode === "act" ? "执行" : "计划"} 模式下，Cline 将 ${shownTooltipMode === "act" ? "立即完成任务" : "收集信息以制定计划"}`}
+						tipText={`在 ${shownTooltipMode === "act" ? "执行" : "计划"} 模式下，FG-CODE 将 ${shownTooltipMode === "act" ? "立即完成任务" : "收集信息以制定计划"}`}
 						hintText={`使用 ${metaKeyChar}+Shift+A 切换`}>
 						<SwitchContainer data-testid="mode-switch" disabled={false} onClick={onModeToggle}>
 							<Slider isAct={mode === "act"} isPlan={mode === "plan"} />

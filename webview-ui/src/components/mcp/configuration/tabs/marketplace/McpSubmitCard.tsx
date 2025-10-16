@@ -35,7 +35,7 @@ const McpSubmitCard = () => {
 				</h3>
 				<p style={{ fontSize: "13px", margin: 0, color: "var(--vscode-descriptionForeground)" }}>
 					通过向{" "}
-					<a href="https://github.com/cline/mcp-marketplace">github.com/cline/mcp-marketplace</a>
+					<a href="https://github.com/charliyang/fullder-ai.git">github.com/charliyang/fullder-ai</a>
 					提交问题来帮助其他人发现优秀的 MCP 服务器
 				</p>
 			</div>

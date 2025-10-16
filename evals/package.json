@@ -1,7 +1,7 @@
 {
   "name": "cline-evals",
   "version": "0.1.0",
-  "description": "Evaluation scripts and tools for Cline",
+  "description": "Evaluation scripts and tools for FG-CODE",
   "main": "cli/dist/index.js",
   "scripts": {
     "build:cli": "cd cli && tsc",

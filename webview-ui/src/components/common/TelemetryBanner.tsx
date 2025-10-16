@@ -71,13 +71,13 @@ const TelemetryBanner = () => {
 				✕
 			</CloseButton>
 			<div>
-				<strong>帮助改进 Cline</strong>
+				<strong>帮助改进 FG-CODE</strong>
 				<i>
 					<br />
 					(并访问实验性功能)
 				</i>
 				<div style={{ marginTop: 4 }}>
-					Cline 收集错误和使用数据以帮助我们修复错误和改进扩展。永远不会发送代码、提示或个人信息。
+					FG-CODE 收集错误和使用数据以帮助我们修复错误和改进扩展。永远不会发送代码、提示或个人信息。
 					<div style={{ marginTop: 4 }}>
 						您可以在{" "}
 						<VSCodeLink href="#" onClick={handleOpenSettings}>

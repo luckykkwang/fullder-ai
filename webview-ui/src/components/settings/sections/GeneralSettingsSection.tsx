@@ -28,7 +28,7 @@ const GeneralSettingsSection = ({ renderSectionHeader }: GeneralSettingsSectionP
 						允许错误和使用情况报告
 					</VSCodeCheckbox>
 					<p className="text-xs mt-[5px] text-[var(--vscode-descriptionForeground)]">
-						通过发送使用数据和错误报告帮助改进 Cline。永远不会发送代码、提示或个人信息。查看我们的{" "}
+						通过发送使用数据和错误报告帮助改进 FG-CODE。永远不会发送代码、提示或个人信息。查看我们的{" "}
 						<VSCodeLink href="https://docs.cline.bot/more-info/telemetry" className="text-inherit">
 							遥测概述
 						</VSCodeLink>{" "}

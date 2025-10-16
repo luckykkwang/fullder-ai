@@ -35,18 +35,18 @@ const WelcomeView = memo(() => {
 	return (
 		<div className="fixed inset-0 p-0 flex flex-col">
 			<div className="h-full px-5 overflow-auto">
-				<h2>你好，我是 Cline Chinese</h2>
+				<h2>你好，我是 FG-CODE</h2>
 				<div className="flex justify-center my-5">
 					<ClineLogoWhite className="size-16" />
 				</div>
 				<p>
-					🎉 Cline Chinese与胜算云达成合作啦！官方（Anthropic、GCP、AWS）Claude sonnet 4、Claude Opus
+					{/* 🎉 Cline Chinese与胜算云达成合作啦！官方（Anthropic、GCP、AWS）Claude sonnet 4、Claude Opus
 					4、谷歌GCP/GoogleAIStudio模型，全球模型都可调用，非逆向，支付宝/微信、充值折扣，可发票，可试用，点击此处进行注册：
 					<VSCodeLink
 						href="https://router.shengsuanyun.com/auth?from=cline-chinese&callback_url=vscode://HybridTalentComputing.cline-chinese/ssy"
 						className="inline">
 						&gt;&gt;点击接入胜算云，领取100万tokens算力
-					</VSCodeLink>
+					</VSCodeLink> */}
 				</p>
 				<p>
 					我可以完成各种任务，这要归功于{" "}

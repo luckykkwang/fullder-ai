@@ -417,7 +417,7 @@ export const ChatRowContent = memo(
 								{toolIcon("edit")}
 								{tool.operationIsLocatedInWorkspace === false &&
 									toolIcon("sign-out", "yellow", -90, "此文件在您的工作区之外")}
-								<span style={{ fontWeight: "bold" }}>Cline 想要编辑此文件：</span>
+								<span style={{ fontWeight: "bold" }}>FG-CODE 想要编辑此文件：</span>
 							</div>
 							<CodeAccordian
 								// isLoading={message.partial}

@@ -143,8 +143,8 @@ export async function activate(context: vscode.ExtensionContext) {
 		// TODO: 使用更好的带有明暗变体的 svg 图标 (参见 https://stackoverflow.com/questions/58365687/vscode-extension-iconpath)
 
 		panel.iconPath = {
-			light: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "robot_panel_light.png"),
-			dark: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "robot_panel_dark.png"),
+			light: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "icons.png"),
+			dark: vscode.Uri.joinPath(context.extensionUri, "assets", "icons", "icons.png"),
 		}
 		tabWebview.resolveWebviewView(panel)
 

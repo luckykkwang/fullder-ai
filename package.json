@@ -1,7 +1,7 @@
 {
-	"name": "cline-chinese",
-	"displayName": "Cline Chinese",
-	"description": "Cline中文汉化版，Cline是一款在您的 IDE 中运行的自主编程助手，经您许可后可以创建/编辑文件、运行命令、使用浏览器等功能。",
+	"name": "FG-CODE",
+	"displayName": "FG-CODE",
+	"description": "FG-CODE，是一款在您的 IDE 中运行的自主编程助手，经您许可后可以创建/编辑文件、运行命令、使用浏览器等功能。",
 	"version": "3.25.2",
 	"icon": "assets/icons/icon.png",
 	"engines": {
@@ -49,21 +49,21 @@
 		"walkthroughs": [
 			{
 				"id": "ClineWalkthrough",
-				"title": "认识 Cline，您的新编码伙伴",
-				"description": "Cline 像开发者一样编码，因为它像开发者一样思考。这里有 5 种让它工作的方法：",
+				"title": "认识 FG-CODE，您的新编码伙伴",
+				"description": "FG-CODE 像开发者一样编码，因为它像开发者一样思考。这里有 5 种让它工作的方法：",
 				"steps": [
 					{
 						"id": "welcome",
 						"title": "从目标开始，而不仅仅是提示",
-						"description": "告诉 Cline 您想要实现什么。它计划、询问，然后编码，就像一个真正的伙伴。",
+						"description": "告诉 FG-CODE 您想要实现什么。它计划、询问，然后编码，就像一个真正的伙伴。",
 						"media": {
 							"markdown": "walkthrough/step1.md"
 						}
 					},
 					{
 						"id": "learn",
-						"title": "让 Cline 学习您的代码库",
-						"description": "将 Cline 指向您的项目。它建立理解以做出智能、上下文感知的更改。",
+						"title": "让 FG-CODE 学习您的代码库",
+						"description": "将 FG-CODE 指向您的项目。它建立理解以做出智能、上下文感知的更改。",
 						"media": {
 							"markdown": "walkthrough/step2.md"
 						}
@@ -71,7 +71,7 @@
 					{
 						"id": "advanced-features",
 						"title": "始终使用最佳 AI 模型",
-						"description": "Cline 为您提供最先进的 AI 能力，连接到顶级模型（Anthropic、Gemini、OpenAI 等）。",
+						"description": "FG-CODE 为您提供最先进的 AI 能力，连接到顶级模型（Anthropic、Gemini、OpenAI 等）。",
 						"media": {
 							"markdown": "walkthrough/step3.md"
 						}
@@ -87,7 +87,7 @@
 					{
 						"id": "getting-started",
 						"title": "您始终掌控一切",
-						"description": "审查 Cline 的计划和差异。在更改发生前批准它们。没有意外。",
+						"description": "审查 FG-CODE 的计划和差异。在更改发生前批准它们。没有意外。",
 						"media": {
 							"markdown": "walkthrough/step5.md"
 						},
@@ -102,13 +102,13 @@
 			"activitybar": [
 				{
 					"id": "cline-chinese-ActivityBar",
-					"title": "Cline Chinese (⌘+')",
+					"title": "FG-CODE (⌘+')",
 					"icon": "assets/icons/icon.svg",
 					"when": "isMac"
 				},
 				{
 					"id": "cline-chinese-ActivityBar",
-					"title": "Cline Chinese (Ctrl+')",
+					"title": "FG-CODE (Ctrl+')",
 					"icon": "assets/icons/icon.svg",
 					"when": "!isMac"
 				}
@@ -168,12 +168,12 @@
 			},
 			{
 				"command": "clineChinese.addToChat",
-				"title": "添加到 Cline",
+				"title": "添加到 FG-CODE",
 				"category": "clineChinese"
 			},
 			{
 				"command": "clineChinese.addTerminalOutputToChat",
-				"title": "添加到 Cline",
+				"title": "添加到 FG-CODE",
 				"category": "clineChinese"
 			},
 			{
@@ -183,24 +183,24 @@
 			},
 			{
 				"command": "clineChinese.generateGitCommitMessage",
-				"title": "使用 Cline 生成提交消息",
+				"title": "使用 FG-CODE 生成提交消息",
 				"category": "clineChinese",
 				"icon": "$(robot)"
 			},
 			{
 				"command": "clineChinese.abortGitCommitMessage",
-				"title": "使用 Cline 生成提交消息 - 停止",
+				"title": "使用 FG-CODE 生成提交消息 - 停止",
 				"category": "clineChinese",
 				"icon": "$(debug-stop)"
 			},
 			{
 				"command": "clineChinese.explainCode",
-				"title": "使用 Cline 解释",
+				"title": "使用 FG-CODE 解释",
 				"category": "clineChinese"
 			},
 			{
 				"command": "clineChinese.improveCode",
-				"title": "使用 Cline 改进",
+				"title": "使用 FG-CODE 改进",
 				"category": "clineChinese"
 			},
 			{
@@ -333,7 +333,7 @@
 			]
 		},
 		"configuration": {
-			"title": "Cline Chinese",
+			"title": "FG-CODE",
 			"properties": {}
 		}
 	},
